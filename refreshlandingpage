@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        @import url("https://use.typekit.net/mvj3dfa.css");
+    </style>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            margin: 0;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif, Arial;
+            color: #000000;
+            font-weight: 400;
+            line-height: 1.6em;
+        }
+
+        .btn-update {
+            background-color: #F8DB00;
+            color: black;
+            font-weight: bold;
+            border: none;
+        }
+
+        .spacerform {
+            padding-top: 100px;
+        }
+
+        .displaybox {
+            background: #FFFFFF;
+        }
+
+        .headings {
+            font-weight: bold;
+            padding-bottom: 10px;
+            font-family: "proxima-nova", sans-serif;
+        }
+
+        .form-items {
+            padding-bottom: 5px;
+        }
+
+        .boldtext {
+            font-weight: bold;
+            font-family: "proxima-nova-bold", sans-serif;
+            font-size: 22px;
+            color: #454849;
+        }
+
+        .tooltip-inner {
+            max-width: 350px;
+            width: 350px;
+            background-color: #1F5AA5;
+        }
+
+        .header {
+            background-color: #1F5AA5;
+            color: #000000;
+        }
+
+        .underline {
+            border-bottom: 2px solid #F8DB00;
+        }
+
+        .content {
+            background-color: #f2f2f2;
+            color: #000000;
+        }
+
+        .footer {
+            background-color: #37393A;
+            color: #b5b5b5;
+           bottom: 0;
+     position: absolute;
+     width: 100%;
+        }
+
+        .footertext {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: bold;
+            color: #8b8b8b;
+        }
+
+        a {
+            text-decoration: inherit;
+            color: inherit;
+        }
+
+        .whyother {
+            display: none;
+        }
+
+        .blueside {
+            background-color: #1F5AA5;
+        }
+
+        .whitemid {
+            background: #FFFFFF;
+        }
+
+        .copyright {
+            color: #DEDEDE;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .submitbtn {
+            background-color: #F8DB00;
+            font-size: 13px;
+            font-family: "Open Sans", sans-serif;
+            color: #454849;
+            border-color: #F8DB00;
+            font-weight: bold;
+        }
+
+        .contactbtn {
+            background-color: #1F5AA5;
+            font-size: 13px;
+            font-family: "Open Sans", sans-serif;
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 32px;
+            font-family: "Open Sans", sans-serif;
+            color: #FFFFFF;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+    </style>
+    <title>RACV Survey
+    </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col">
+                <div class="row justify-content-center p-4">
+                    <div class="col-md-4 text-center p-md-2 p-3">
+                        <img src="https://image.e.racv.com.au/lib/fe6815707c63067c7517/m/1/ff0fd8c8-86c6-4500-984a-5bf670c03eb5.png" width="80px" height="auto" class="img-fluid" alt="RACV Logo">
+                    </div>
+                    <div class="col-md-4 text-center title p-md-2 p-3">
+                        Share your thoughts
+                    </div>
+                    <div class="col-md-4 text-center p-md-2 p-3">
+                        <button type="button" class="btn btn-primary px-4 py-2 contactbtn">CONTACT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row content">
+            <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-sm-3 blueside p-sm-4 p-0">
+                    </div>
+                    <div class="col-xl-4 col-sm-6 whitemid p-sm-4 p-0">
+                    </div>
+                    <div class="col-xl-4 col-sm-3 blueside p-sm-4 p-0">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-sm-6 displaybox pt-0 pb-5 px-5">
+                        <div class="row">
+                            <div class="col-12 p-2">
+                                <div class="row">
+                                    <div class="col-12 p-2 underline boldtext">
+                                    Sorry, this page is currently not responding. Try again later.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="spacerform">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-sm-12 pt-md-4 pt-0">
+                <div class="row text-center">
+                    <div class="col-xl-2 col-md-12 p-xl-3 p-0">
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 text-center p-md-3 p-2">
+                        <div class="row">
+                            <div class="col-md-3 p-2">
+                                <a href="https://www.racv.com.au/" target="_blank" title="RACV" style="color: #8f9090;">
+                                    <img src="https://image.e.racv.com.au/lib/fe6815707c63067c7517/m/1/8fccac57-c24f-4482-9b4b-e4b500b59120.png" width="50" height="auto" alt="RACV" title="RACV" />
+                                </a>
+                            </div>
+                            <div class="col-md-3 p-2">
+                                <a href="https://www.racv.com.au/utility/contact-us.html" title="Contact RACV" class="footertext">Contact RACV</a>
+                            </div>
+                            <div class="col-md-3 p-2">
+                                <a href="https://www.racv.com.au/about-racv/our-business/legal/privacy-charter.html" title="Privacy Policy" class="footertext">Legal</a>
+                            </div>
+                            <div class="col-md-3 p-2">
+                                <a href="https://www.racv.com.au/content/dam/racv/documents/about-racv/our-business/RACV+Privacy+Charter.pdf" title="Privacy Policy" class="footertext">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12 text-center p-md-3 p-2">
+                        <div class="row">
+                            <div class="col-12 p-2 text-center">
+                                <span class="copyright">&copy; 2020 Royal Automobile Club of Victoria (RACV) Ltd All rights reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-12 p-xl-3 p-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+</html>
